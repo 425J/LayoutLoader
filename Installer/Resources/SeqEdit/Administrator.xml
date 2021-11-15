@@ -8,7 +8,7 @@
 					<FileStepListConfigurations classname='Obj'>
 						<subprops>
 							<Configurations classname='Objs'>
-								<value lbound='[0]' ubound='[2]'>
+								<value lbound='[0]' ubound='[3]'>
 									<value>
 										<Obj name='_DEFAULT'>
 											<subprops>
@@ -834,10 +834,377 @@
 											</subprops>
 										</Obj>
 									</value>
+									<value>
+										<Obj name='Custom'>
+											<subprops>
+												<AutoSizeColumns classname='Bool'>
+													<value>true</value>
+												</AutoSizeColumns>
+												<BlockDisplayOptions classname='Num'>
+													<value>107</value>
+												</BlockDisplayOptions>
+												<BackColor classname='Num'>
+													<value>2147483653</value>
+												</BackColor>
+												<CommentsColor classname='Num'>
+													<value>11100540</value>
+												</CommentsColor>
+												<CommentsFontSource classname='Num'>
+													<value>12</value>
+												</CommentsFontSource>
+												<CommentsOffset classname='Num'>
+													<value>0</value>
+												</CommentsOffset>
+												<HeaderFontSource classname='Num'>
+													<value>12</value>
+												</HeaderFontSource>
+												<HorizLines classname='Bool'>
+													<value>false</value>
+												</HorizLines>
+												<IconSize classname='Num'>
+													<value>16</value>
+												</IconSize>
+												<ItemBackColorExpression classname='Str'>
+													<value/>
+												</ItemBackColorExpression>
+												<ItemTextColorExpression classname='Str'>
+													<value>Step.TS.Mode == "Normal"?
+     tsDefaultColor:
+     Step.TS.Mode == "Skip"?
+         tsGray:
+         Step.TS.Mode == "Pass"?
+                RGB(0,155,101):
+                Step.TS.Mode == "Fail" ?
+                       RGB(196,0,12) :
+                       tsDefaultColor</value>
+												</ItemTextColorExpression>
+												<LinesColor classname='Num'>
+													<value>15856112</value>
+												</LinesColor>
+												<MaxCommentsHeight classname='Num'>
+													<value>10</value>
+												</MaxCommentsHeight>
+												<RoundItemRects classname='Bool'>
+													<value>false</value>
+												</RoundItemRects>
+												<ShadeAlternateColumns classname='Bool'>
+													<value>false</value>
+												</ShadeAlternateColumns>
+												<ShowComments classname='Bool'>
+													<value>true</value>
+												</ShowComments>
+												<ShowCommentsBars classname='Bool'>
+													<value>false</value>
+												</ShowCommentsBars>
+												<StepIconsEnabled classname='Bool'>
+													<value>true</value>
+												</StepIconsEnabled>
+												<TextColor classname='Num'>
+													<value>2147483656</value>
+												</TextColor>
+												<TextFontSource classname='Num'>
+													<value>12</value>
+												</TextFontSource>
+												<VertLines classname='Bool'>
+													<value>true</value>
+												</VertLines>
+												<CommentsFont classname='Obj'>
+													<subprops>
+														<Name classname='Str'>
+															<value>Microsoft Sans Serif</value>
+														</Name>
+														<Size classname='Num'>
+															<value>8.25</value>
+														</Size>
+														<Bold classname='Bool'>
+															<value>false</value>
+														</Bold>
+														<Italic classname='Bool'>
+															<value>false</value>
+														</Italic>
+														<Underline classname='Bool'>
+															<value>false</value>
+														</Underline>
+														<Strikethrough classname='Bool'>
+															<value>false</value>
+														</Strikethrough>
+														<Weight classname='Num'>
+															<value>400</value>
+														</Weight>
+														<Charset classname='Num'>
+															<value>0</value>
+														</Charset>
+													</subprops>
+												</CommentsFont>
+												<HeaderFont classname='Obj'>
+													<subprops>
+														<Name classname='Str'>
+															<value>Microsoft Sans Serif</value>
+														</Name>
+														<Size classname='Num'>
+															<value>8.25</value>
+														</Size>
+														<Bold classname='Bool'>
+															<value>false</value>
+														</Bold>
+														<Italic classname='Bool'>
+															<value>false</value>
+														</Italic>
+														<Underline classname='Bool'>
+															<value>false</value>
+														</Underline>
+														<Strikethrough classname='Bool'>
+															<value>false</value>
+														</Strikethrough>
+														<Weight classname='Num'>
+															<value>400</value>
+														</Weight>
+														<Charset classname='Num'>
+															<value>0</value>
+														</Charset>
+													</subprops>
+												</HeaderFont>
+												<TextFont classname='Obj'>
+													<subprops>
+														<Name classname='Str'>
+															<value>Microsoft Sans Serif</value>
+														</Name>
+														<Size classname='Num'>
+															<value>8.25</value>
+														</Size>
+														<Bold classname='Bool'>
+															<value>false</value>
+														</Bold>
+														<Italic classname='Bool'>
+															<value>false</value>
+														</Italic>
+														<Underline classname='Bool'>
+															<value>false</value>
+														</Underline>
+														<Strikethrough classname='Bool'>
+															<value>false</value>
+														</Strikethrough>
+														<Weight classname='Num'>
+															<value>400</value>
+														</Weight>
+														<Charset classname='Num'>
+															<value>0</value>
+														</Charset>
+													</subprops>
+												</TextFont>
+												<Columns classname='Objs'>
+													<value lbound='[0]' ubound='[4]'>
+														<value>
+															<Obj name=''>
+																<subprops>
+																	<BackColorExpression classname='Str'>
+																		<value/>
+																	</BackColorExpression>
+																	<Caption classname='Str'>
+																		<value>_STEP</value>
+																	</Caption>
+																	<Expression classname='Str'>
+																		<value/>
+																	</Expression>
+																	<Name classname='Str'>
+																		<value>Name</value>
+																	</Name>
+																	<TextColorExpression classname='Str'>
+																		<value/>
+																	</TextColorExpression>
+																	<Type classname='Num'>
+																		<value>1</value>
+																	</Type>
+																	<Visible classname='Bool'>
+																		<value>true</value>
+																	</Visible>
+																	<Width classname='Num'>
+																		<value>220</value>
+																	</Width>
+																	<Autosizing classname='Num'>
+																		<value>1</value>
+																	</Autosizing>
+																</subprops>
+															</Obj>
+														</value>
+														<value>
+															<Obj name=''>
+																<subprops>
+																	<BackColorExpression classname='Str'>
+																		<value/>
+																	</BackColorExpression>
+																	<Caption classname='Str'>
+																		<value>_DESCRIPTION</value>
+																	</Caption>
+																	<Expression classname='Str'>
+																		<value/>
+																	</Expression>
+																	<Name classname='Str'>
+																		<value>Description</value>
+																	</Name>
+																	<TextColorExpression classname='Str'>
+																		<value/>
+																	</TextColorExpression>
+																	<Type classname='Num'>
+																		<value>3</value>
+																	</Type>
+																	<Visible classname='Bool'>
+																		<value>true</value>
+																	</Visible>
+																	<Width classname='Num'>
+																		<value>198</value>
+																	</Width>
+																	<Autosizing classname='Num'>
+																		<value>1</value>
+																	</Autosizing>
+																</subprops>
+															</Obj>
+														</value>
+														<value>
+															<Obj name=''>
+																<subprops>
+																	<BackColorExpression classname='Str'>
+																		<value/>
+																	</BackColorExpression>
+																	<Caption classname='Str'>
+																		<value>_STEP_SETTINGS</value>
+																	</Caption>
+																	<Expression classname='Str'>
+																		<value/>
+																	</Expression>
+																	<Name classname='Str'>
+																		<value>Column0</value>
+																	</Name>
+																	<TextColorExpression classname='Str'>
+																		<value/>
+																	</TextColorExpression>
+																	<Type classname='Num'>
+																		<value>4</value>
+																	</Type>
+																	<Visible classname='Bool'>
+																		<value>true</value>
+																	</Visible>
+																	<Width classname='Num'>
+																		<value>214</value>
+																	</Width>
+																	<Autosizing classname='Num'>
+																		<value>1</value>
+																	</Autosizing>
+																</subprops>
+															</Obj>
+														</value>
+														<value>
+															<Obj name=''>
+																<subprops>
+																	<BackColorExpression classname='Str'>
+																		<value>RunState.Engine.StationOptions.DisableResults ?
+	tsBlack
+:(Step.ResultRecordingOption == 0) ?
+	tsDarkRed
+:(RunState.Sequence.DisableResults &amp;&amp; Step.ResultRecordingOption == 1) ?
+	tsDarkGray
+:(RunState.Sequence.DisableResults &amp;&amp; Step.ResultRecordingOption == 2) ?
+	tsDarkBlue
+:(Step.ResultRecordingOption == 1) ?
+	tsDarkGreen
+:tsBlue</value>
+																	</BackColorExpression>
+																	<Caption classname='Str'>
+																		<value>REPORTING</value>
+																	</Caption>
+																	<Expression classname='Str'>
+																		<value>RunState.Engine.StationOptions.DisableResults ?
+	"Disabled"
+:(RunState.Sequence.DisableResults &amp;&amp; Step.ResultRecordingOption != 2) ?
+	"Disabled"
+:(Step.ResultRecordingOption == 0) ?
+	"Disabled"
+:"Enabled"</value>
+																	</Expression>
+																	<Name classname='Str'>
+																		<value>Column1</value>
+																	</Name>
+																	<TextColorExpression classname='Str'>
+																		<value>tsWhite</value>
+																	</TextColorExpression>
+																	<Type classname='Num'>
+																		<value>6</value>
+																	</Type>
+																	<Visible classname='Bool'>
+																		<value>true</value>
+																	</Visible>
+																	<Width classname='Num'>
+																		<value>50</value>
+																	</Width>
+																	<Autosizing classname='Num'>
+																		<value>1</value>
+																	</Autosizing>
+																</subprops>
+															</Obj>
+														</value>
+														<value>
+															<Obj name=''>
+																<subprops>
+																	<BackColorExpression classname='Str'>
+																		<value/>
+																	</BackColorExpression>
+																	<Caption classname='Str'>
+																		<value>ATTRIBUTES</value>
+																	</Caption>
+																	<Expression classname='Str'>
+																		<value>Step.AsPropertyObject.HasAttributes ? (
+	Trim(
+		SearchAndReplace(
+			SearchAndReplace(
+				SearchAndReplace(
+					SearchAndReplace(
+						SearchAndReplace(
+							SearchAndReplace(
+								SearchAndReplace(
+									SearchAndReplace(
+										SearchAndReplace(
+											Step.AsPropertyObject.Attributes.GetXML(XMLOption_ExcludeFlags OR XMLOption_ExcludeVersionInfo, 0),
+																					"&lt;Prop Name='", ""),
+																					"' Type='Attributes'&gt;", ""),
+																					"' Type='Obj'&gt;", ""),
+																					"' Type='Boolean'&gt;", ""),
+																					"' Type='Number'&gt;", ""),
+																					"' Type='String'&gt;", ""),
+																					"&lt;/Prop&gt;", ""),
+																					"&lt;Value&gt;", ""),
+																					"&lt;/Value&gt;", ""))
+) : ""</value>
+																	</Expression>
+																	<Name classname='Str'>
+																		<value>Column2</value>
+																	</Name>
+																	<TextColorExpression classname='Str'>
+																		<value/>
+																	</TextColorExpression>
+																	<Type classname='Num'>
+																		<value>6</value>
+																	</Type>
+																	<Visible classname='Bool'>
+																		<value>true</value>
+																	</Visible>
+																	<Width classname='Num'>
+																		<value>50</value>
+																	</Width>
+																	<Autosizing classname='Num'>
+																		<value>1</value>
+																	</Autosizing>
+																</subprops>
+															</Obj>
+														</value>
+													</value>
+												</Columns>
+											</subprops>
+										</Obj>
+									</value>
 								</value>
 							</Configurations>
 							<ActiveConfiguration classname='Str'>
-								<value>_DEFAULT</value>
+								<value>Custom</value>
 							</ActiveConfiguration>
 						</subprops>
 					</FileStepListConfigurations>
@@ -2152,16 +2519,7 @@ tsDefaultColor:
 						<value>8</value>
 					</MaxMRUFiles>
 					<MostRecentlyUsedList classname='Strs'>
-						<value lbound='[0]' ubound='[7]'>
-							<value arrayindex='[0]'>C:\Users\Public\Documents\National Instruments\TestStand 2021 (32-bit)\Examples\Demos\Computer Motherboard Test\LabVIEW\Computer Motherboard Test Sequence.seq</value>
-							<value arrayindex='[1]'>C:\Users\micha\Desktop\Restart.seq</value>
-							<value arrayindex='[2]'>C:\Users\micha\Desktop\UICFG.seq</value>
-							<value arrayindex='[3]'>C:\Program Files (x86)\National Instruments\TestStand 2021\Components\Callbacks\FrontEnd\FrontEndCallbacks.seq</value>
-							<value arrayindex='[4]'>C:\Users\micha\Desktop\Sequence File.seq</value>
-							<value arrayindex='[5]'>C:\425J\Tool Menu Utility\_TEST.seq</value>
-							<value arrayindex='[6]'>C:\Users\micha\Desktop\a.seq</value>
-							<value arrayindex='[7]'>C:\Users\micha\Desktop\Templates Test.seq</value>
-						</value>
+						<value lbound='[0]' ubound='[]'/>
 					</MostRecentlyUsedList>
 					<SequenceListSortSettings classname='Obj'>
 						<subprops>
@@ -2434,9 +2792,7 @@ tsDefaultColor:
 				<value>Administrator</value>
 			</Layout_ConfigToLoadAtStartup>
 			<WorkspaceFileMRUList classname='Strs'>
-				<value lbound='[0]' ubound='[0]'>
-					<value arrayindex='[0]'>C:\Users\Public\Documents\National Instruments\TestStand 2021 (32-bit)\Examples\Examples.tsw</value>
-				</value>
+				<value lbound='[0]' ubound='[]'/>
 			</WorkspaceFileMRUList>
 			<WorkspaceFileMRUListMaxSize classname='Num'>
 				<value>4</value>
@@ -2457,7 +2813,7 @@ tsDefaultColor:
 				<value/>
 			</CurrentAnalyzerProject>
 			<SequenceDocumentSelectedExecutionEntryPointName classname='Str'>
-				<value>Run MainSequence</value>
+				<value/>
 			</SequenceDocumentSelectedExecutionEntryPointName>
 			<SweepLoopTableShowTestVectors classname='Bool'>
 				<value>false</value>

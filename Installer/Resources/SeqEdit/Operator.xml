@@ -2152,16 +2152,7 @@ tsDefaultColor:
 						<value>8</value>
 					</MaxMRUFiles>
 					<MostRecentlyUsedList classname='Strs'>
-						<value lbound='[0]' ubound='[7]'>
-							<value arrayindex='[0]'>C:\Users\micha\Desktop\Restart.seq</value>
-							<value arrayindex='[1]'>C:\Users\Public\Documents\National Instruments\TestStand 2021 (32-bit)\Examples\Demos\Computer Motherboard Test\LabVIEW\Computer Motherboard Test Sequence.seq</value>
-							<value arrayindex='[2]'>C:\Users\micha\Desktop\UICFG.seq</value>
-							<value arrayindex='[3]'>C:\Program Files (x86)\National Instruments\TestStand 2021\Components\Callbacks\FrontEnd\FrontEndCallbacks.seq</value>
-							<value arrayindex='[4]'>C:\Users\micha\Desktop\Sequence File.seq</value>
-							<value arrayindex='[5]'>C:\425J\Tool Menu Utility\_TEST.seq</value>
-							<value arrayindex='[6]'>C:\Users\micha\Desktop\a.seq</value>
-							<value arrayindex='[7]'>C:\Users\micha\Desktop\Templates Test.seq</value>
-						</value>
+						<value lbound='[0]' ubound='[]'/>
 					</MostRecentlyUsedList>
 					<SequenceListSortSettings classname='Obj'>
 						<subprops>
@@ -2434,9 +2425,7 @@ tsDefaultColor:
 				<value>Operator</value>
 			</Layout_ConfigToLoadAtStartup>
 			<WorkspaceFileMRUList classname='Strs'>
-				<value lbound='[0]' ubound='[0]'>
-					<value arrayindex='[0]'>C:\Users\Public\Documents\National Instruments\TestStand 2021 (32-bit)\Examples\Examples.tsw</value>
-				</value>
+				<value lbound='[0]' ubound='[]'/>
 			</WorkspaceFileMRUList>
 			<WorkspaceFileMRUListMaxSize classname='Num'>
 				<value>4</value>
@@ -2457,7 +2446,7 @@ tsDefaultColor:
 				<value/>
 			</CurrentAnalyzerProject>
 			<SequenceDocumentSelectedExecutionEntryPointName classname='Str'>
-				<value>Run MainSequence</value>
+				<value/>
 			</SequenceDocumentSelectedExecutionEntryPointName>
 			<SweepLoopTableShowTestVectors classname='Bool'>
 				<value>false</value>
